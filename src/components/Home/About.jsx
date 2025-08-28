@@ -21,15 +21,15 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Salma Benslimane </span>
+                 and I'm from <span className="yellow"> Morocco </span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I am currently an engineering student,
                 <br />
                 <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
+                  specialised in
+                  <b className="yellow"> Data </b>science and digitalization,  
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in

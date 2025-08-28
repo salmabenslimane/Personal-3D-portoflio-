@@ -764,3 +764,54 @@ html {
   .fork-btn-inner::after {
     display: none !important;
   }
+
+  /* --------- */
+/* Experience */
+/* --------- */
+.experience-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.experience-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.experience-card-view {
+  box-shadow: 0 4px 5px 3px rgb(72, 0, 155) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+
+.experience-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 5px 3px rgba(117, 0, 250, 1) !important;
+}
+
+.experience-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+.experience-title {
+  font-size: 1.5em !important;
+  font-weight: 600 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.experience-subtitle {
+  font-size: 1.2em !important;
+  font-weight: 500 !important;
+  padding-bottom: 10px !important;
+}

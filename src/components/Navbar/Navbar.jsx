@@ -3,18 +3,15 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../../assets/sLogo.png";
-// import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-// import { CgGitFork } from "react-icons/cg";
 import {
-  // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineContacts
 } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi"
+import { GiSkills } from "react-icons/gi";
 import { CgFileDocument } from "react-icons/cg";
-
+import { CgBriefcase } from "react-icons/cg"; // added for Experience icon
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -82,6 +79,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            {/* New Experience link */}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgBriefcase style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -101,17 +109,6 @@ function NavBar() {
                 <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
-
-            {/* <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/19sajib/portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

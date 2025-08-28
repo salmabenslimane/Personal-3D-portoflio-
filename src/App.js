@@ -6,11 +6,14 @@ import {
   Navigate
 } from "react-router-dom";
 
+
 import Home from './pages/Home'
 import Skill from './pages/Skillset'
 import Project from './pages/Projects'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
+import Experience from './pages/Experience';
+
 
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -43,6 +46,7 @@ function App() {
           <Route path="/skillset" element={<Skill />} />
           <Route path="/project" element={<Project />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
