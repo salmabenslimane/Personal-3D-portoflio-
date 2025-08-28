@@ -1,7 +1,9 @@
 // src/pages/experience.jsx
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ExperienceCard from "../components/Experience/experienceCard";
+import ExperienceCard from '../components/Experience/ExperienceCard';
+
+
 import Particle from "../components/Particle";
 import exp1 from "../assets/experiences/exp1.png";
 import exp2 from "../assets/experiences/exp2.png";
